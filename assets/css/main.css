@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300"); */
 
 /*
 	Identity by HTML5 UP
@@ -85,10 +85,10 @@
 	body {
 		height: 100%;
 		background-color: #ffffff;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.15)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.15)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.15)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.15)), url("../../images/bg.jpg");
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
@@ -127,18 +127,18 @@
 
 @font-face {
     font-family: SanFrancisco;
-    src: url("sf-fonts/SanFranciscoText-Regular.otf") format("opentype");
+    src: url("../fonts/SanFranciscoText-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: SanFrancisco;
     font-weight: bold;
-    src: url("sf-fonts/SanFranciscoDisplay-Bold.otf") format("opentype");
+    src: url("../fonts/SanFranciscoDisplay-Bold.otf") format("opentype");
 }
 
 	body, input, select, textarea {
 		color: #414f57;
-		font-family: "SanFrancisco", Helvetica, sans-serif;
+		font-family: "SanFrancisco"; /*, Helvetica, sans-serif;*/
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 2;
@@ -207,7 +207,7 @@
 		}
 
 	h1 {
-		font-size: 1.85em;
+		font-size: 1.95em;
 		letter-spacing: 0.1em;
 		margin: 0 0 0.525em 0;
         font-weight: bold;
@@ -812,6 +812,7 @@
 				padding: 0 0 0 0.85em;
 				border-left: solid 1px rgba(255, 255, 255, 0.5);
 				line-height: 1;
+                text-shadow: 1px 1px gray;
 			}
 
 				#footer .copyright li:first-child {
