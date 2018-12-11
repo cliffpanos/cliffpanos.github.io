@@ -1089,7 +1089,7 @@
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
             /* @cliff this is where to change the opacity of the black overlay over the background */
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.4), rgba(19, 21, 25, 0.4)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.45), rgba(19, 21, 25, 0.45)), url("../../images/overlay.png");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
