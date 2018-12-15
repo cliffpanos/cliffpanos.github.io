@@ -1927,7 +1927,7 @@
 
         .image.projecticon img {
             max-width: 112px;
-            height: 112px;
+            max-height: 112px;
             background-color: clear;
             border-radius: 24px;
         }
