@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="112px" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Unfoldit-Vector112</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="24.8174282%" y1="92.7624656%" x2="58.3266977%" y2="39.0341886%" id="linearGradient-1">
+            <stop stop-color="#F0F0F0" offset="0%"></stop>
+            <stop stop-color="#FDFDFD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFC361" offset="0%"></stop>
+            <stop stop-color="#FF9032" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#D7EE83" offset="0%"></stop>
+            <stop stop-color="#AED94C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#40D0F9" offset="0%"></stop>
+            <stop stop-color="#1EA4F0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#F7598E" offset="0%"></stop>
+            <stop stop-color="#EB2D55" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Unfoldit-Vector112">
+            <path d="M55.9453659,0 L55.9453659,0 C86.8431382,-5.67582871e-15 111.890732,25.0475935 111.890732,55.9453659 L111.890732,55.9453659 C111.890732,86.8431382 86.8431382,111.890732 55.9453659,111.890732 L55.9453659,111.890732 C25.0475935,111.890732 3.78388581e-15,86.8431382 0,55.9453659 L0,55.9453659 C-3.78388581e-15,25.0475935 25.0475935,5.67582871e-15 55.9453659,0 Z" id="RoundedAppIcon" fill="url(#linearGradient-1)"></path>
+            <g id="Sub">
+                <rect id="Background" fill="#FFFFFF" x="0" y="0" width="111.890732" height="111.890732" rx="25"></rect>
+                <g id="Triangles" transform="translate(56.054634, 56.000000) rotate(-90.000000) translate(-56.054634, -56.000000) translate(15.133659, 15.133659)">
+                    <polygon id="Orange" fill="url(#linearGradient-2)" transform="translate(27.927665, 53.770346) rotate(45.000000) translate(-27.927665, -53.770346) " points="27.927665 43.1977248 56.7744942 64.3429679 -0.91916429 64.3429679"></polygon>
+                    <polygon id="Triangle" fill="url(#linearGradient-3)" transform="translate(27.927665, 27.873761) rotate(135.000000) translate(-27.927665, -27.873761) " points="27.927665 17.3011394 56.7744942 38.4463825 -0.91916429 38.4463825"></polygon>
+                    <polygon id="Triangle" fill="url(#linearGradient-4)" transform="translate(53.878884, 27.873761) rotate(-135.000000) translate(-53.878884, -27.873761) " points="53.8788845 17.3011394 82.7257138 38.4463825 25.0320552 38.4463825"></polygon>
+                    <polygon id="Triangle" fill="url(#linearGradient-5)" transform="translate(53.878884, 53.770346) rotate(-45.000000) translate(-53.878884, -53.770346) " points="53.8788845 43.1977248 82.7257138 64.3429679 25.0320552 64.3429679"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
