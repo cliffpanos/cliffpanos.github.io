@@ -1477,6 +1477,21 @@
 			margin: 0 0 2rem 0;
 		}
 
+        .embed-pdf {
+            display: none;
+            margin-bottom: 1rem
+        }
+
+        @media screen and (min-width:650px) {
+            .rwd-break {
+                display: none
+            }
+
+            .embed-pdf {
+                display: inherit !important
+            }
+        }
+
 	h1 {
 		font-size: 2.25rem;
 		line-height: 1.3;
@@ -1925,15 +1940,39 @@
 			display: block;
 		}
 
+        /* For the project icons on the Work page */
+
         .image.projecticon img {
             max-width: 112px;
             max-height: 112px;
             background-color: clear;
             border-radius: 24px;
+            margin-bottom: 20px;
         }
         .image.projecticon:before {
             content: none;
         }
+
+        @media screen and (max-width: 736px) {
+
+            .image.projecticon img {
+                max-width: 100px;
+                max-height: 100px;
+                border-radius: 21px;
+            }
+
+        }
+
+        @media screen and (max-width: 480px) {
+
+            .image.projecticon img {
+                max-width: 44px;
+                max-height: 44px;
+                border-radius: 11px;
+            }
+
+        }
+
 
 		.image.left, .image.right {
 			max-width: 40%;
