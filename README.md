@@ -1,5 +1,5 @@
 # Personal-Website
-A professional, personal website for myself.
+A professional, personal website.
 
 View my website at [cliffpanos.com](http://www.cliffpanos.com).
 
